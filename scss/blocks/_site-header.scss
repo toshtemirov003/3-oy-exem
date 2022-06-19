@@ -1,0 +1,30 @@
+.site-header {
+    position: relative;
+    z-index: 1;
+    margin-top: 30px;
+    margin-bottom: 79px;
+}
+.site-header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.site-header__logo {
+
+}
+.site-header__logo-img {
+    display: block;
+}
+.site-header__btn{
+    display: none;
+    background-color: transparent;
+    border: none;
+}
+.site-header__btn-img{
+
+}
+@include breakpoint-down(520px){
+    .site-header__btn{
+        display: block;
+    }
+}
